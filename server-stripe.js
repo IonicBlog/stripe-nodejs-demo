@@ -8,4 +8,13 @@ module.exports = function(app){
             res.json({}); //Send out blank data for now.
         }
     );
+
+    app.post('/stripe',
+        function(req,res)
+        {
+            var transaction = req.body;
+            console.log(transaction);
+            res.json({});
+        }
+    );
 }
