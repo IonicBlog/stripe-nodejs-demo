@@ -1,6 +1,9 @@
 stripe-nodejs-demo
 ==================
 
+Demo showing how to get the Stripe API working with Node.js using the stripe module. Client-side code compiled from the documentaiton provided at: https://stripe.com/docs/tutorials/forms
+
+
 Installation
 -------------
 
