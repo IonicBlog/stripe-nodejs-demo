@@ -13,6 +13,8 @@ The following modules are needed for this demo:
 
 `npm install stripe`
 
+PLEASE MAKE SURE YOU ENTER YOUR PUBLISHABLE KEY INTO `index.html` AND YOUR SERVER KEY INTO `server-stripe.js` WHERE SPECIFIED.
+
 License
 --------
 
