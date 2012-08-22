@@ -14,11 +14,7 @@ app.get(['/','/index.html'],
     }
 );
 
-<<<<<<< HEAD
 //Serve out the demo.css file that overrides the CSS reset.
-=======
-//Serve out the css file that overrides the CSS reset.
->>>>>>> ae470d840afe6c40986693c19ecbd4b5efe958c8
 app.get('/demo.css',
     function(req,res)
     {
