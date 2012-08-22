@@ -1,0 +1,24 @@
+body
+{
+    margin: 2em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+#control-panel
+{
+    margin: 2em 0em;
+}
+
+.panel-row
+{
+    margin: 0.5em 0;
+}
+
+.payment-errors
+{
+    color: red;
+}

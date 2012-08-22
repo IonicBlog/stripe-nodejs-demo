@@ -14,6 +14,14 @@ app.get(['/','/index.html'],
     }
 );
 
+//Serve out the demo.css file that overrides the CSS reset.
+app.get('/demo.css',
+    function(req,res)
+    {
+        res.sendfile('demo.css');
+    }
+);
+
 //Port server is on. Defaulted to 8080.
 app.listen(8080);
 console.log('Stripe demo server is up and running!');

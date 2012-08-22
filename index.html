@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Stripe - Node.js Demo</title>
-
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <script type="text/javascript" src="https://js.stripe.com/v1/"></script>
     <script type="text/javascript">
@@ -43,14 +42,13 @@
         }
     </script>
 
-    <style type='text/css'>
-        .payment-errors
-        {
-            color: red;
-        }
-    </style>
+    <!-- CSS Reset. -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.6.0/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="./demo.css">
+
 </head>
 <body>
+    <!-- Only Stripe token is currently POSTed to server. -->
     <form action="/stripe" method="POST" id="payment-form">
       <div class="form-row">
         <label>Card Number</label>
@@ -69,5 +67,17 @@
       <div class='payment-errors'></div>
       <button type="submit" class="submit-button">Submit Payment</button>
     </form>
+
+    <!-- Work in progress
+    <div id='control-panel'>
+        <h2>Control Panel</h2>
+        <div class='panel-row'>
+            <label>Create customer</label><input type='checkbox'>
+        </div>
+        <div class='panel-row'>
+
+        </div>
+    </div>
+    -->
 </body>
 </html>
